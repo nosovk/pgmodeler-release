@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: jurplel/install-qt-action@v2
         with:
-          version: 6.2.0
+          version: 6.3.2
 
       - name: Checkout Release Scripts
         uses: actions/checkout@v2
